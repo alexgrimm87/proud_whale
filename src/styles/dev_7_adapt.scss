@@ -1,0 +1,264 @@
+@media screen and (max-width: 1870px){
+  .bottom-wrap {
+    background-position-y: 260px;
+  }
+}
+@media screen and (max-width: 1151px){
+  .section3 {
+    ul {
+      max-width: 555px;
+      margin: 0 auto;
+    }
+  }
+  .section7 {
+    ul {
+      li {
+        width: 290px;        
+        &:hover {
+          .prices-top {
+            .prices-title {
+              width: 320px; 
+            }
+          }
+        }
+        .prices-top {
+          .prices-title {
+            margin-left: -35px;
+            width: 290px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1023px){
+  .section4 {
+    .portfolio-wrap {
+      flex-direction: column;
+      align-items: center;
+      ul {
+        &:last-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .section7 {
+    padding-top: 85px;
+    margin-bottom: 34px;
+    .title {
+      margin-bottom: 88px;
+    }
+    ul {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 44px;
+      li:not(:last-child) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px){
+  .title {
+    max-width: 270px;
+    h2 {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .section3 {
+    &:before {
+      height: 247px;
+    }
+  }
+
+  .section4 {
+    &:before {
+      height: 256px;
+    }
+  }
+
+  .section6 {
+    h2 {
+      font-size: 29px;
+      line-height: 38px;
+    }
+  }
+
+  .section7 {
+    &:before {
+      height: 293px;
+    }
+    .title {
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .section8 {
+    h2 {
+      font-size: 23px;
+      line-height: 37px;
+    }
+  }
+}
+@media screen and (max-width: 875px){
+  .footer {
+    .footer-inner {
+      .footer-left {
+        ul {
+          li {
+            a {
+              height: 40px;
+              width: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 815px){
+  .footer {
+    padding: 0;
+    bottom: 0;
+    .footer-inner {
+      padding: 17px 0;
+      flex-direction: column-reverse;
+      align-items: center;
+      .footer-left {
+        margin-bottom: 8px;
+        .footer-logo {
+          display: none;
+        }
+        ul {
+          li {
+            a {
+              width: 55px;
+            }
+          }
+        }
+      }
+      .footer-center {
+        order: -1;
+      }
+      .footer-right {
+        margin-bottom: 13px;
+        ul {
+          li {
+            margin-bottom: 18px;
+            .contacts-icon {
+              margin-right: 14px;
+            }
+          }
+        }
+        .contact {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 575px){
+  .section3 {
+    padding-top: 63px;
+    margin-bottom: 43px;
+    .title {
+      margin-bottom: 56px;
+    }
+    ul {
+      max-width: 263px;
+      li {
+        margin-bottom: 33px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 539px){
+  .section4 {
+    padding-top: 79px;
+    .title {
+      margin-bottom: 83px;
+    }
+    .portfolio-wrap {
+      margin-bottom: 50px;
+      ul {
+        &:last-child {
+          li {
+            height: 260px;
+            &:last-child {
+              height: 260px;
+              margin-bottom: 0;
+            }
+          }
+        }
+        li {
+          margin-bottom: 24px;
+          height: 260px;
+          width: 290px;
+          &:last-child {
+            height: 260px;
+          }
+          .portfolio-content {
+            top: 25px;
+            left: 30px;
+            max-width: 170px;
+            h3 {
+              font-size: 18px;
+              line-height: 27px;
+            }
+            a {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 419px){
+  .section7 {
+    ul {
+      li {     
+        &:hover {
+          transform: scale(1);
+          .prices-top {
+            .prices-title {
+              margin-left: -20px;
+              width: 290px; 
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px){
+  .section6 {
+    margin-bottom: 58px;
+    h2 {
+      max-width: 230px;
+      margin: 0 auto 26px auto;
+    }
+    .site-pic {
+      height: 265px;
+      width: 353px;
+      margin: 0 auto;
+    }
+  }
+
+  .section8 {
+    margin-bottom: 101px;
+    h2 {
+      margin-bottom: 16px;
+    }
+    .prices-info {
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
+}
